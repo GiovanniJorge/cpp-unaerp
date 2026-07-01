@@ -12,7 +12,6 @@ Exercícios em linguagem C++ usados nas aulas da Unaerp — coleção organizada
 ## Badges
 
 - Licença: MIT (ver arquivo LICENSE)
-- Linguagem: C++
 
 ## Sumário
 
