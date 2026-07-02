@@ -30,7 +30,7 @@ Top-level:
 ├── LICENSE
 ├── README.md
 ├── desktop.ini
-└── exercicios-geral/         # Exercícios diversos e fundamentos (.cpp, .hpp, etc.)
+└── exercicios-geral/         # Exercícios diversos e fundamentos (.cpp)
     ├── elipse.cpp
     ├── aprovacao-aluno.cpp
     └── ...                  # Outros subprojetos e tópicos divididos por temas
