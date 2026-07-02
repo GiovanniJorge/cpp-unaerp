@@ -10,7 +10,7 @@ Exercícios em linguagem C++ usados nas aulas da Unaerp — coleção organizada
 
 ## Badges
 ![Licença](https://img.shields.io/github/license/GiovanniJorge/cpp-unaerp?style=flat-square)
-![Exercícios](https://img.shields.io/badge/quantidade-19%20exercícios-blue?style=flat-square)
+![Exercícios](https://img.shields.io/badge/quantidade-18%20exercícios-blue?style=flat-square)
 
 ## Sumário
 - [Visão geral](#visão-geral)
@@ -29,7 +29,6 @@ Top-level:
 ├── .gitattributes
 ├── LICENSE
 ├── README.md
-├── desktop.ini
 └── exercicios-geral/         # Exercícios diversos e fundamentos (.cpp)
     ├── elipse.cpp
     ├── aprovacao-aluno.cpp
