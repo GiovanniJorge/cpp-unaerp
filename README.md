@@ -10,6 +10,7 @@ Exercícios em linguagem C++ usados nas aulas da Unaerp — coleção organizada
 
 ## Badges
 ![Licença](https://img.shields.io/github/license/GiovanniJorge/cpp-unaerp?style=flat-square)
+![Exercícios](https://img.shields.io/badge/quantidade-19%20exercícios-blue?style=flat-square)
 
 ## Sumário
 - [Visão geral](#visão-geral)
@@ -28,9 +29,10 @@ Top-level:
 ├── .gitattributes
 ├── LICENSE
 ├── README.md
+├── desktop.ini
 └── exercicios-geral/         # Exercícios diversos e fundamentos (.cpp, .hpp, etc.)
-    ├── geral-ex1.cpp
-    ├── geral-ex2.cpp
+    ├── elipse.cpp
+    ├── aprovacao-aluno.cpp
     └── ...                  # Outros subprojetos e tópicos divididos por temas
 ```
 
@@ -44,14 +46,14 @@ Recomenda-se usar `g++` ou `clang++` (compiladores compatíveis com os padrões 
 
 ### Compilar um exercício único (Padrão C++17):
 ```bash
-g++ -std=c++17 -Wall -Wextra -pedantic -O2 -g exercicios-geral/geral-ex1.cpp -o geral-ex1
-./geral-ex1
+g++ -std=c++17 -Wall -Wextra -pedantic -O2 -g exercicios-geral/elipse.cpp -o elipse
+./elipse
 ```
 
 ### Compilar com suporte a C++20:
 ```bash
-g++ -std=c++20 -Wall -Wextra -pedantic exercicios-geral/geral-ex3.cpp -o geral-ex3
-./geral-ex3
+g++ -std=c++20 -Wall -Wextra -pedantic exercicios-geral/aprovacao-aluno.cpp -o aprovacao-aluno
+./aprovacao-aluno
 ```
 
 ### Compilar todos os .cpp em uma pasta (Rápido para testes locais):
@@ -63,8 +65,8 @@ g++ -std=c++17 -Wall -Wextra *.cpp -o exercicios
 
 ### Usando Clang++ como alternativa:
 ```bash
-clang++ -std=c++17 -Wall -Wextra -pedantic exercicios-geral/geral-ex1.cpp -o geral-ex1
-./geral-ex1
+clang++ -std=c++17 -Wall -Wextra -pedantic exercicios-geral/elipse.cpp -o elipse
+./elipse
 ```
 
 > **Dica de Compilação:** As flags `-Wall -Wextra -pedantic` são altamente recomendadas no ambiente universitário pois forçam o compilador a apontar avisos estritos e desvios de padrões ISO. Para depuração com ferramentas como GDB, mantenha a flag `-g` ativa.
