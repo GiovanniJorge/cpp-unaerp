@@ -1,0 +1,21 @@
+# Executáveis compilados
+*.exe
+*.out
+*.app
+
+# Arquivos de objeto e linkagem
+*.o
+*.obj
+
+# Arquivos de projeto/configuração do Dev-C++ e Code::Blocks
+*.dev
+*.layout
+Makefile.win
+*.depend
+*.cbp
+
+# Arquivos temporários e do sistema
+desktop.ini
+Desktop.ini
+.DS_Store
+Thumbs.db
