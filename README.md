@@ -27,12 +27,13 @@ Este repositório organiza pequenos programas em C++ que exemplificam conceitos 
 Top-level:
 ```text
 ├── .gitattributes
+├── .gitignore
 ├── LICENSE
 ├── README.md
 └── exercicios-geral/         # Exercícios diversos e fundamentos (.cpp)
     ├── elipse.cpp
     ├── aprovacao-aluno.cpp
-    └── ...                  # Outros subprojetos e tópicos divididos por temas
+    └── ...                   # Outros subprojetos e tópicos divididos por temas
 ```
 
 ### Como se encaixa:
